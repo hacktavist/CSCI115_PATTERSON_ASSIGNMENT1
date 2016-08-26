@@ -1,0 +1,62 @@
+.site-title-header {
+  background-color: #06addb;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-header {
+  float: left;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #59BCD9;
+  min-width: 800px;
+  text-align: left;
+  height: 33px;
+  padding: 10px 10px;
+}
+
+.nav-class {
+  display: table;
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+  min-height: 45px;
+  z-index: 5;
+  position: relative;
+  text-align: center;
+}
+
+.content {
+  padding-top: 120px;
+  padding-left: 300px;
+}
+
+a {
+  text-decoration: none;
+  margin: auto;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  vertical-align: text-top;
+}
+
+body {
+  background-color: #0f8bad;
+}
+
+li {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+}

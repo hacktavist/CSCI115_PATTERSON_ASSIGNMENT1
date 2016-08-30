@@ -34,12 +34,7 @@
   text-align: center;
 }
 
-.content {
-  padding-top: 120px;
-  padding-left: 300px;
-}
-
-a {
+.nav-header-links {
   text-decoration: none;
   margin: auto;
   padding: 10px;
@@ -49,14 +44,42 @@ a {
   vertical-align: text-top;
 }
 
+.nav-header-links:hover {
+  color: #000000;
+}
+
+.nav-header-links:visited {
+  color: #5A8D8D;
+}
+
+.content {
+  padding-top: 120px;
+  padding-left: 300px;
+}
+
 body {
   background-color: #0f8bad;
 }
 
-li {
+dt {
+  font-size: 24px;
+}
+
+li,
+dd {
   font-size: 22px;
 }
 
 p {
   font-size: 18px;
+}
+
+footer {
+  display: table;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  position: absolute;
 }

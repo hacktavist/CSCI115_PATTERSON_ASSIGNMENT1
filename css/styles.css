@@ -53,8 +53,10 @@
 }
 
 .content {
+  display: table;
+  margin: 0 auto;
   padding-top: 120px;
-  padding-left: 300px;
+  width: 50%;
 }
 
 body {
@@ -84,16 +86,38 @@ footer {
   position: relative;
 }
 
-
-
-td, th{
+td,
+th {
   text-align: center;
   padding-left: 25px;
   padding-right: 25px;
-  border: solid;
+  border-collapse: collapse;
+  outline: 1px solid;
 }
 
-img{
-  width:25%;
+table.schedule {
+  table-layout: fixed;
+  width: 1200px;
+}
+
+thead.schedule,
+td.time {
+  background: #555666;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+td.schedule {
+  background: #0f8bad;
+  white-space: nowrap;
+}
+
+td.schedule:hover {
+  background: #0f8bad;
+  color: #ffffff;
+}
+
+img {
+  width: 25%;
   height: 35%;
 }
